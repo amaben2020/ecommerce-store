@@ -5,6 +5,14 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
+    "baseUrl": "./",
+
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["/components/*"],
+      "@/assets/*": ["/assets/*"],
+      "@/layout/*": ["components/layout/*"]
+    },
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
