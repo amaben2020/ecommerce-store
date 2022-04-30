@@ -18,3 +18,8 @@ CSS:
 3. Responsive design
 4. Fonts
 5. Typography scale
+
+HELP CHAT
+
+1. How to create a new product
+2. How to create a new order

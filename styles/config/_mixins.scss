@@ -34,12 +34,24 @@
 }
 
 @mixin for-size($size) {
-  @if $size == phone-only {
-    @media (max-width: 900px) {
+  @if $size == xs {
+    @media (max-width: 576px) {
       @content;
     }
-  } @else if $size == tablet-landscape-up {
-    @media (min-width: 900px) {
+  } @else if $size == sm {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $size == md {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media (min-width: 992px) {
+      @content;
+    }
+  } @else if $size == xl {
+    @media (min-width: 1400px) {
       @content;
     }
   }
