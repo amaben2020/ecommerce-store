@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import * as styles from "./layout.module.scss";
 import Head from "next/head";
-import Sidebar from "../sidebar/sidebar";
+import Sidebar from "../sections/sidebar/sidebar";
 
 type Props = {
   children?: ReactNode;

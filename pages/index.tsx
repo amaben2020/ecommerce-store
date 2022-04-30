@@ -1,10 +1,25 @@
-import MainMenu from "@/components/main-menu/main-menu";
+import MainMenu from "@/components/sections/main-menu/main-menu";
+import ProductProps from "@/components/sections/main-menu/types";
+
 import Layout from "@/layout/layout";
+import axios from "axios";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <MainMenu />
-  </Layout>
-);
+const Home = (products: ProductProps[]) => {
+  return (
+    <Layout title="Home | Welcome to Algomachine007 store">
+      <MainMenu {...products} />
+    </Layout>
+  );
+};
 
-export default IndexPage;
+export default Home;
+
+export const getServerSideProps = async () => {
+  const { data } = await axios.get("http://localhost:4000/products");
+
+  return {
+    props: {
+      products: data,
+    },
+  };
+};

@@ -10,6 +10,7 @@ App would possess the following features
 8. Order management
 9. Email management
 10. SMS management
+11. Profile update feature
 
 CSS:
 
@@ -23,3 +24,11 @@ HELP CHAT
 
 1. How to create a new product
 2. How to create a new order
+
+JS
+
+1. Reducers
+2. Actions
+3. Components
+4. Hooks
+5. Redux/Context

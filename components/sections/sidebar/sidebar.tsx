@@ -13,8 +13,6 @@ const Sidebar = () => {
       <div>Sidebar Lorem ipsum dolor sit</div>
       <div>Sidebar Lorem ipsum dolor sit</div>
       <div>Sidebar Lorem ipsum dolor sit</div>
-      <div>Sidebar Lorem ipsum dolor sit</div>
-      <div>Sidebar Lorem ipsum dolor sit</div>
     </aside>
   );
 };
