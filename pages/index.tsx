@@ -1,13 +1,13 @@
 import MainMenu from "@/components/sections/main-menu/main-menu";
-import ProductProps from "@/components/sections/main-menu/types";
+import Product from "@/components/sections/main-menu/types";
 
 import Layout from "@/layout/layout";
 import axios from "axios";
 
-const Home = (products: ProductProps[]) => {
+const Home = ({ products }: Product) => {
   return (
     <Layout title="Home | Welcome to Algomachine007 store">
-      <MainMenu {...products} />
+      <MainMenu products={products} />
     </Layout>
   );
 };

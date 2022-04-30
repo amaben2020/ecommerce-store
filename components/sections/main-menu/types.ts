@@ -24,4 +24,4 @@ export type Product = {
   products: ProductProps[];
 };
 
-export default ProductProps;
+export default Product;

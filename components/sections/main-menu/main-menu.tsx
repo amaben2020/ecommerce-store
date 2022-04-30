@@ -1,9 +1,15 @@
 import React from "react";
 import * as styles from "./main-menu.module.scss";
-import ProductProps from "./types";
+import Product from "./types";
 
-const MainMenu = (products: ProductProps[]) => {
-  return <div className={styles.wrapper}>MainMenu</div>;
+const MainMenu = (products: Product) => {
+  return (
+    <div className={styles.wrapper}>
+      {products.products.map((product) => (
+        <div>name - {product.name}</div>
+      ))}
+    </div>
+  );
 };
 
 export default MainMenu;
