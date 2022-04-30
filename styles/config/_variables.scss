@@ -7,8 +7,12 @@ $purple-primary: #6f64f8;
 $purple-secondary: #7e72f2;
 $star: #ffa84c;
 
-$gray-opacity-012: rgba(19, 129, 215, 0.12);
+$opacity-primary: rgba(19, 129, 215, 0.12);
 
+// box shadows
+$box-shadow-primary: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+
+//width
 $max-width: 1200px;
 $max-width-over-page: 1440px;
 
@@ -59,16 +63,13 @@ $line-height-medium: 1.18;
 $line-height: 1.15;
 $line-height-small: 1.1;
 
+// letter spacing
 $letter-spacing: -1.5px;
 $letter-spacing-small: -1px;
 $letter-spacing-xsmall: -0.5px;
 $letter-spacing-tiny: -0.25px;
-
 $letter-spacing-wide: 2px;
 $letter-spacing-wider: 3px;
-
-// box shadows
-$box-shadow-primary: 0px 2px 8px rgba(0, 0, 0, 0.135216);
 
 /* gradients */
 $gradient-primary: radial-gradient(

@@ -11,7 +11,8 @@
       "@/*": ["./*"],
       "@components/*": ["/components/*"],
       "@/assets/*": ["/assets/*"],
-      "@/layout/*": ["components/layout/*"]
+      "@/layout/*": ["components/layout/*"],
+      "@styles/*": ["styles/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
