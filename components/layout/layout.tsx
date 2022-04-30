@@ -2,6 +2,7 @@ import React, { ReactNode } from "react";
 import * as styles from "./layout.module.scss";
 import Head from "next/head";
 import Sidebar from "../sections/sidebar/sidebar";
+import Footer from "../sections/footer/footer";
 
 type Props = {
   children?: ReactNode;
@@ -22,10 +23,7 @@ const Layout = ({ children, title = "Welcome " }: Props) => (
       {children}
     </div>
 
-    <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
-    </footer>
+    <Footer />
   </div>
 );
 

@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: $box-shadow-purple;
+  height: 10vh;
+  color: $purple-primary;
+  padding: 0 40px;
+}
