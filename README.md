@@ -1,4 +1,4 @@
-App would possess the following features
+App would possess the following features:
 
 1. Authentication
 2. Language translation
@@ -11,6 +11,7 @@ App would possess the following features
 9. Email management
 10. SMS management
 11. Profile update feature
+12. Change view feature
 
 CSS:
 
@@ -19,11 +20,13 @@ CSS:
 3. Responsive design
 4. Fonts
 5. Typography scale
+6. Multi-Range Slider
 
 HELP CHAT
 
 1. How to create a new product
 2. How to create a new order
+3. WebSockets chat with Admin
 
 JS
 
@@ -32,3 +35,11 @@ JS
 3. Components
 4. Hooks
 5. Redux/Context
+
+Cart
+
+1. Increment cart
+
+CMS later migration
+
+- Contentful or Strapi
