@@ -1,12 +1,30 @@
-import React, { Children } from "react";
-import { CartContext } from "./cart-context";
+import React, { Children, useReducer } from "react";
 
-const CartState = ({ children }: any) => {
+import { CartContext } from "./cart-context";
+import cartReducer from "./reducer";
+import { toast } from "react-toastify";
+
+const CartState = ({ children }: Children) => {
+  console.log("children", children);
   const { Provider } = CartContext;
 
-  const [guy, setState] = React.useState("ME AND YOU");
+  const cartState = {
+    cart: [],
+  };
 
-  return <Provider value={{ guy }}> {children}</Provider>;
+  const [{ cart }, dispatch] = useReducer(cartReducer, cartState);
+
+  type Reducer<State, Action> = (state: State, action: Action) => State;
+
+  const addToCart = (product: ProductProps) => {
+    dispatch({
+      type: "ADD_TO_CART",
+      payload: product,
+    });
+    toast(`${product.name} was successfully Added to cart`);
+  };
+
+  return <Provider value={{ cart, addToCart }}> {children}</Provider>;
 };
 
 export default CartState;

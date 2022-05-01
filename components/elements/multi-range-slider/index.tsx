@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./multi-range.module.scss";
 import * as styles from "./multi-range.module.scss";
 const MultiRangeSlider = () => {
-  const [state, setState] = useState<number>(10);
+  const [state, setState] = useState(60);
 
   const onSliderChange = (e) => {
     console.log(e);

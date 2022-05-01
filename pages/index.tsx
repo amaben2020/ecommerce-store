@@ -1,10 +1,10 @@
-import MainMenu from "@/components/sections/main-menu/main-menu";
-import Product from "@/components/sections/main-menu/types";
+import "react-toastify/dist/ReactToastify.css";
 
 import Layout from "@/layout/layout";
-import axios from "axios";
+import MainMenu from "@/components/sections/main-menu/main-menu";
+import Product from "@/components/sections/main-menu/types";
 import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const Home = ({ products }: Product) => {
   return (

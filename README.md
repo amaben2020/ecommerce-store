@@ -12,6 +12,7 @@ App would possess the following features:
 10. SMS management
 11. Profile update feature
 12. Change view feature
+13. Product Tour https://blog.logrocket.com/complete-guide-to-build-product-tours-on-your-react-apps/
 
 CSS:
 

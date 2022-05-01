@@ -1,8 +1,10 @@
-import { ADD_TO_CART } from "./types";
+import CartActionKind from "./types";
 
-type ADD = {
+const { ADD_TO_CART } = CartActionKind;
+
+type AddToCart = {
   readonly type: "ADD_TO_CART";
-  readonly payload: object;
+  readonly payload: ProductProps;
 };
 type DELETE = {
   readonly type: "DELETE_FROM_CART";
@@ -19,17 +21,13 @@ type RESET = {
   readonly payload: number;
 };
 
-type Actions = ADD | DELETE | UPDATE | RESET;
+type Actions = AddToCart | DELETE | UPDATE | RESET;
 
 type State = {
-  cart: Array<any>;
+  cart: ProductProps[];
 };
 
-const initialState = {
-  cart: [],
-};
-
-const productReducer = (state: State, action: Actions): State => {
+const cartReducer = (state: State, action: Actions): State => {
   const { type, payload } = action;
   switch (type) {
     case ADD_TO_CART:
@@ -41,3 +39,5 @@ const productReducer = (state: State, action: Actions): State => {
       throw new Error("Action type not found");
   }
 };
+
+export default cartReducer;
