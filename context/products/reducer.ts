@@ -1,12 +1,12 @@
 import CartActionKind from "./types";
 
-const { ADD_TO_CART } = CartActionKind;
+const { ADD_TO_CART, DELETE_FROM_CART } = CartActionKind;
 
 type AddToCart = {
   readonly type: "ADD_TO_CART";
   readonly payload: ProductProps;
 };
-type DELETE = {
+type DeleteFromCart = {
   readonly type: "DELETE_FROM_CART";
   readonly payload: number;
 };
@@ -21,7 +21,7 @@ type RESET = {
   readonly payload: number;
 };
 
-type Actions = AddToCart | DELETE | UPDATE | RESET;
+type Actions = AddToCart | DeleteFromCart | UPDATE | RESET;
 
 type State = {
   cart: ProductProps[];
@@ -34,6 +34,11 @@ const cartReducer = (state: State, action: Actions): State => {
       return {
         ...state,
         cart: [...state.cart, payload],
+      };
+    case DELETE_FROM_CART:
+      return {
+        ...state,
+        cart: state.cart.filter((item: ProductProps) => item.id !== payload),
       };
     default:
       throw new Error("Action type not found");

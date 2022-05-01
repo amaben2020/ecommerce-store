@@ -8,15 +8,18 @@ const MainMenu = (products: Product) => {
   const { products: data } = products;
 
   const {
-    values: { addToCart },
+    values: { addToCart, deleteFromCart },
   } = useStateFromContext();
 
   return (
     <div className={styles.wrapper}>
-      {data.map((product) => (
+      {data.slice(0, 6).map((product) => (
         <>
           <div>name - {product.name} </div>
           <button onClick={() => addToCart(product)}>Add</button>
+          <button onClick={() => deleteFromCart(Number(product.id))}>
+            Delete
+          </button>
         </>
       ))}
 

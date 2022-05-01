@@ -1,36 +1,37 @@
-import React, { useState } from "react";
-import "./multi-range.module.scss";
 import * as styles from "./multi-range.module.scss";
-const MultiRangeSlider = () => {
-  const [state, setState] = useState(60);
 
-  const onSliderChange = (e) => {
-    console.log(e);
+import React, { useState } from "react";
+
+const MultiRangeSlider = () => {
+  const [state, setState] = useState<number>(60);
+
+  const onSliderChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const { value } = e.target;
-    setState(value);
+    setState(Number(value));
   };
 
   return (
     <>
       <input
-        type="range"
         min="0"
+        type="range"
         max="100"
-        // className="thumb thumb--zindex-3"
-
-        className={styles.wrapper}
+        className={`${styles.thumb} ${styles.thumb__zindex3}`}
+        // className={styles.wrapper}
         value={state}
         onChange={onSliderChange}
       />
       <input
         type="range"
         min="0"
-        max="1000"
-        className="thumb thumb--zindex-4"
+        max="100"
+        className={`${styles.thumb} ${styles.thumb__zindex4}`}
+        value={state}
+        onChange={onSliderChange}
       />
-      <div className="slider">
-        <div className="slider__track" />
-        <div className="slider__range" />
+      <div className={styles.slider}>
+        <div className={styles.slider__track} />
+        <div className={styles.slider__range} />
       </div>
     </>
   );
