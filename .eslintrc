@@ -1,5 +1,5 @@
 {
-  "extends": ["prettier"],
+  "extends": ["prettier", "plugin:react-hooks/recommended"],
   "rules": {
     "import/order": [
       "error",

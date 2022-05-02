@@ -2,5 +2,7 @@
   "app_title": "Titre",
   "language": "Langue",
   "welcome_message": "Bienvenue",
-  "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette vidéo"
+  "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette vidéo",
+  "product_name": "{{product.name}}",
+  "category": "eeeee , {{product.category}}"
 }

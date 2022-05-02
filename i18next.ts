@@ -1,3 +1,4 @@
+//@ts-nocheck
 import HttpApi from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import i18n from "i18next";
@@ -23,7 +24,7 @@ i18n
     react: {
       useSuspense: false,
     },
-    // lng: document && document.querySelector("html")?.lang,
+
     detection: {
       order: ["cookie", "htmlTag", "localStorage", "path", "subdomain"],
       caches: ["cookie"],
