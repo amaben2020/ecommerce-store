@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 30px 20px 22px;
+  box-shadow: $box-shadow-primary;
+}
+
+.button-area {
+  display: flex;
+}

@@ -1,5 +1,6 @@
 import * as styles from "./main-menu.module.scss";
 
+import Card from "@/components/elements/card/card";
 import MultiRangeSlider from "@/components/elements/multi-range-slider";
 import Product from "./types";
 import useLanguageHook from "@/hooks/useLanguageHook";
@@ -18,13 +19,14 @@ const MainMenu = (products: Product) => {
       <h1>{t("welcome_message")}</h1>
 
       <p> {t("days_since_release", { ok: "Amaben" })}</p>
-      {data.slice(0, 3).map((product) => (
+      {data.slice(0, 13).map((product) => (
         <>
-          <div key={product.id}>{t("product_name", { product })} </div>
+          {/* <div key={product.id}>{t("product_name", { product })} </div>
           <button onClick={() => addToCart(product)}>Add</button>
           <button onClick={() => deleteFromCart(Number(product.id))}>
             Delete
-          </button>
+          </button> */}
+          <Card item={product} />
         </>
       ))}
 

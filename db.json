@@ -23,7 +23,7 @@
     {
       "id": 0,
       "name": "Erik Mante",
-      "image": "./../ecommerce/assets/images/apple-watch.png",
+      "image": "/assets/images/apple-watch.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
       "featured": true,
       "address": "201 Otis Lock",
@@ -42,7 +42,7 @@
     {
       "id": 1,
       "name": "Beats Headphone",
-      "image": "./../ecommerce/assets/images/beats-headphones.png",
+      "image": "/assets/images/beats-headphones.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
       "featured": false,
       "address": "0349 Hayes Pines",
@@ -61,7 +61,7 @@
     {
       "id": 2,
       "name": "Homepod",
-      "image": "./../ecommerce/assets/images/homepod.png",
+      "image": "/assets/images/homepod.png",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
       "featured": false,
       "address": "0871 Kreiger Groves",
@@ -80,7 +80,7 @@
     {
       "id": 3,
       "name": "Iphone X",
-      "image": "./../ecommerce/assets/images/iphone-x.png",
+      "image": "/assets/images/iphone-x.png",
       "coverPhoto": "http://loremflickr.com/640/480/business",
       "featured": false,
       "address": "559 Melvin Forks",
@@ -99,7 +99,7 @@
     {
       "id": 4,
       "name": "IPad pro",
-      "image": "./../ecommerce/assets/images/ipad-pro.png",
+      "image": "/assets/images/ipad-pro.png",
       "coverPhoto": "http://loremflickr.com/640/480/food",
       "featured": false,
       "address": "732 Aisha Haven",
@@ -118,7 +118,7 @@
     {
       "id": 5,
       "name": "JBL Speaker",
-      "image": "./../ecommerce/assets/images/jbl-speaker.png",
+      "image": "/assets/images/jbl-speaker.png",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
       "featured": true,
       "address": "8215 Delbert Station",
@@ -137,7 +137,7 @@
     {
       "id": 6,
       "name": "Macbook pro 2021",
-      "image": "./../ecommerce/assets/images/macbook-pro.png",
+      "image": "/assets/images/macbook-pro.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
       "featured": false,
       "address": "63965 Vivianne Ways",
@@ -156,7 +156,7 @@
     {
       "id": 7,
       "name": "JLab Audio",
-      "image": "./../ecommerce/assets/images/jlab-audio-wireless.png",
+      "image": "/assets/images/jlab-audio-wireless.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
       "featured": true,
       "address": "3506 Amanda Islands",
@@ -175,7 +175,7 @@
     {
       "id": 8,
       "name": "Magic Mouse",
-      "image": "./../ecommerce/assets/images/magic-mouse.png",
+      "image": "/assets/images/magic-mouse.png",
       "coverPhoto": "http://loremflickr.com/640/480/food",
       "featured": true,
       "address": "075 Verona Views",

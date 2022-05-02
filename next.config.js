@@ -1,17 +1,22 @@
-// const { i18n } = require("./next-i18next.config.ts");
+const path = require("path");
 
-module.exports = (_, { defaultConfig }) => {
-  if ("sassOptions" in defaultConfig) {
-    defaultConfig["sassOptions"] = {
-      includePaths: ["./src"],
-      prependData: `@import "~@styles/config/variables.scss";`,
-    };
-  }
-  return defaultConfig;
+const nextConfig = {
+  images: {
+    domains: ["loremflickr.com"],
+  },
 };
 
-// https://tr.horecapolis.info/286573-next-js-using-sass-variables-LXTTMV
+const sassConfig = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, "styles")],
+    prependData: `@import "~@styles/config/variables.scss";`,
+  },
+};
 
-// module.exports = {
-//   i18n,
-// };
+// merging 2 configs into one
+module.exports = () => {
+  return {
+    ...sassConfig,
+    ...nextConfig,
+  };
+};

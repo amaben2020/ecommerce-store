@@ -24,6 +24,7 @@
     "json-server": "^0.17.0",
     "json-server-auth": "^2.1.0",
     "next": "latest",
+    "next-compose-plugins": "^2.2.1",
     "next-i18next": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
