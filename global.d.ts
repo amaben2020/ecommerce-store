@@ -16,6 +16,7 @@ type ProductProps = {
   reviews?: number;
   popularity?: "high" | "medium" | "low";
   brand?: string;
+  description?: string;
 };
 
 type Children = {

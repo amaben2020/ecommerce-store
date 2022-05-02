@@ -22,6 +22,7 @@
   "products": [
     {
       "id": 0,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Erik Mante",
       "image": "/assets/images/apple-watch.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
@@ -41,6 +42,7 @@
     },
     {
       "id": 1,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Beats Headphone",
       "image": "/assets/images/beats-headphones.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
@@ -60,6 +62,7 @@
     },
     {
       "id": 2,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Homepod",
       "image": "/assets/images/homepod.png",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -79,6 +82,7 @@
     },
     {
       "id": 3,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Iphone X",
       "image": "/assets/images/iphone-x.png",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -98,6 +102,7 @@
     },
     {
       "id": 4,
+      "description": "Redesigned from scratch and completely revised",
       "name": "IPad pro",
       "image": "/assets/images/ipad-pro.png",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -117,6 +122,7 @@
     },
     {
       "id": 5,
+      "description": "Redesigned from scratch and completely revised",
       "name": "JBL Speaker",
       "image": "/assets/images/jbl-speaker.png",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -136,6 +142,7 @@
     },
     {
       "id": 6,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Macbook pro 2021",
       "image": "/assets/images/macbook-pro.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
@@ -155,6 +162,7 @@
     },
     {
       "id": 7,
+      "description": "Redesigned from scratch and completely revised",
       "name": "JLab Audio",
       "image": "/assets/images/jlab-audio-wireless.png",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
@@ -174,6 +182,7 @@
     },
     {
       "id": 8,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Magic Mouse",
       "image": "/assets/images/magic-mouse.png",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -193,6 +202,7 @@
     },
     {
       "id": 9,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Pedro Lockman II",
       "image": "http://loremflickr.com/300/200/fashion?50213",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -212,6 +222,7 @@
     },
     {
       "id": 10,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Jimmie Hand",
       "image": "http://loremflickr.com/300/200/fashion?45118",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -231,6 +242,7 @@
     },
     {
       "id": 11,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Claude Goldner",
       "image": "http://loremflickr.com/300/200/fashion?74810",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -250,6 +262,7 @@
     },
     {
       "id": 12,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Ms. Gerald Zemlak",
       "image": "http://loremflickr.com/300/200/fashion?6158",
       "coverPhoto": "http://loremflickr.com/640/480/animals",
@@ -269,6 +282,7 @@
     },
     {
       "id": 13,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Brandi Balistreri",
       "image": "http://loremflickr.com/300/200/fashion?60974",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -288,6 +302,7 @@
     },
     {
       "id": 14,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Patrick Harber",
       "image": "http://loremflickr.com/300/200/fashion?67420",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -307,6 +322,7 @@
     },
     {
       "id": 15,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Miranda Schuster",
       "image": "http://loremflickr.com/300/200/fashion?46056",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -326,6 +342,7 @@
     },
     {
       "id": 16,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Ira Strosin",
       "image": "http://loremflickr.com/300/200/fashion?54822",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -345,6 +362,7 @@
     },
     {
       "id": 17,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Terrell Kovacek",
       "image": "http://loremflickr.com/300/200/fashion?64149",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -364,6 +382,7 @@
     },
     {
       "id": 18,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Christie Boehm",
       "image": "http://loremflickr.com/300/200/fashion?65227",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -383,6 +402,7 @@
     },
     {
       "id": 19,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Stella Gusikowski",
       "image": "http://loremflickr.com/300/200/fashion?88772",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -402,6 +422,7 @@
     },
     {
       "id": 20,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Misty Barton",
       "image": "http://loremflickr.com/300/200/fashion?2352",
       "coverPhoto": "http://loremflickr.com/640/480/fashion",
@@ -421,6 +442,7 @@
     },
     {
       "id": 21,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Michele Moen",
       "image": "http://loremflickr.com/300/200/fashion?72240",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -440,6 +462,7 @@
     },
     {
       "id": 22,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Angelica Wolff",
       "image": "http://loremflickr.com/300/200/fashion?49494",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -459,6 +482,7 @@
     },
     {
       "id": 23,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Alice Block V",
       "image": "http://loremflickr.com/300/200/fashion?24319",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
@@ -478,6 +502,7 @@
     },
     {
       "id": 24,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Paulette Cronin MD",
       "image": "http://loremflickr.com/300/200/fashion?85968",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -497,6 +522,7 @@
     },
     {
       "id": 25,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Mrs. Neil Denesik",
       "image": "http://loremflickr.com/300/200/fashion?91776",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -516,6 +542,7 @@
     },
     {
       "id": 26,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Timmy Metz",
       "image": "http://loremflickr.com/300/200/fashion?31169",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -535,6 +562,7 @@
     },
     {
       "id": 27,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Wilson Walker Sr.",
       "image": "http://loremflickr.com/300/200/fashion?39951",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -554,6 +582,7 @@
     },
     {
       "id": 28,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Edna Schuster",
       "image": "http://loremflickr.com/300/200/fashion?67547",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -573,6 +602,7 @@
     },
     {
       "id": 29,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Mrs. Denise Jast",
       "image": "http://loremflickr.com/300/200/fashion?72303",
       "coverPhoto": "http://loremflickr.com/640/480/fashion",
@@ -592,6 +622,7 @@
     },
     {
       "id": 30,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Natalie Bradtke III",
       "image": "http://loremflickr.com/300/200/fashion?54808",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -611,6 +642,7 @@
     },
     {
       "id": 31,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Janet Kohler",
       "image": "http://loremflickr.com/300/200/fashion?34835",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -630,6 +662,7 @@
     },
     {
       "id": 32,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Sadie Howell",
       "image": "http://loremflickr.com/300/200/fashion?18606",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -649,6 +682,7 @@
     },
     {
       "id": 33,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Deborah Johnston",
       "image": "http://loremflickr.com/300/200/fashion?12521",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -668,6 +702,7 @@
     },
     {
       "id": 34,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Spencer McDermott",
       "image": "http://loremflickr.com/300/200/fashion?74042",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -687,6 +722,7 @@
     },
     {
       "id": 35,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Mack Wyman",
       "image": "http://loremflickr.com/300/200/fashion?37778",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -706,6 +742,7 @@
     },
     {
       "id": 36,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Angelica Olson",
       "image": "http://loremflickr.com/300/200/fashion?28499",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -725,6 +762,7 @@
     },
     {
       "id": 37,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Jacquelyn Stark",
       "image": "http://loremflickr.com/300/200/fashion?60776",
       "coverPhoto": "http://loremflickr.com/640/480/transport",
@@ -744,6 +782,7 @@
     },
     {
       "id": 38,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Travis Lindgren",
       "image": "http://loremflickr.com/300/200/fashion?24906",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -763,6 +802,7 @@
     },
     {
       "id": 39,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Willie Koelpin",
       "image": "http://loremflickr.com/300/200/fashion?37771",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -782,6 +822,7 @@
     },
     {
       "id": 40,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Clint Fahey",
       "image": "http://loremflickr.com/300/200/fashion?26831",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -801,6 +842,7 @@
     },
     {
       "id": 41,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Blanche Lubowitz",
       "image": "http://loremflickr.com/300/200/fashion?50489",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -820,6 +862,7 @@
     },
     {
       "id": 42,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Alberta Kohler",
       "image": "http://loremflickr.com/300/200/fashion?57094",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -839,6 +882,7 @@
     },
     {
       "id": 43,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Ricardo Kutch",
       "image": "http://loremflickr.com/300/200/fashion?39389",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -858,6 +902,7 @@
     },
     {
       "id": 44,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Freda Huels",
       "image": "http://loremflickr.com/300/200/fashion?83872",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -877,6 +922,7 @@
     },
     {
       "id": 45,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Thelma Kuhlman",
       "image": "http://loremflickr.com/300/200/fashion?46440",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -896,6 +942,7 @@
     },
     {
       "id": 46,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Nathaniel Johnston",
       "image": "http://loremflickr.com/300/200/fashion?16404",
       "coverPhoto": "http://loremflickr.com/640/480/transport",
@@ -915,6 +962,7 @@
     },
     {
       "id": 47,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Betty Schiller",
       "image": "http://loremflickr.com/300/200/fashion?88810",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -934,6 +982,7 @@
     },
     {
       "id": 48,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Linda Smitham I",
       "image": "http://loremflickr.com/300/200/fashion?46137",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -953,6 +1002,7 @@
     },
     {
       "id": 49,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Melanie Bayer",
       "image": "http://loremflickr.com/300/200/fashion?21280",
       "coverPhoto": "http://loremflickr.com/640/480/abstract",
@@ -972,6 +1022,7 @@
     },
     {
       "id": 50,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Miss Angelo Leuschke",
       "image": "http://loremflickr.com/300/200/fashion?58558",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -991,6 +1042,7 @@
     },
     {
       "id": 51,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Dewey Nikolaus",
       "image": "http://loremflickr.com/300/200/fashion?89843",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -1010,6 +1062,7 @@
     },
     {
       "id": 52,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Mrs. Moses Terry",
       "image": "http://loremflickr.com/300/200/fashion?64903",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -1029,6 +1082,7 @@
     },
     {
       "id": 53,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Wm Dicki",
       "image": "http://loremflickr.com/300/200/fashion?9565",
       "coverPhoto": "http://loremflickr.com/640/480/transport",
@@ -1048,6 +1102,7 @@
     },
     {
       "id": 54,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Kelvin Greenfelder",
       "image": "http://loremflickr.com/300/200/fashion?23184",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -1067,6 +1122,7 @@
     },
     {
       "id": 55,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Mr. Bridget Williamson",
       "image": "http://loremflickr.com/300/200/fashion?36654",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -1086,6 +1142,7 @@
     },
     {
       "id": 56,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Edmund Larkin",
       "image": "http://loremflickr.com/300/200/fashion?70487",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -1105,6 +1162,7 @@
     },
     {
       "id": 57,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Derek Hamill",
       "image": "http://loremflickr.com/300/200/fashion?11436",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -1124,6 +1182,7 @@
     },
     {
       "id": 58,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Lula Weissnat",
       "image": "http://loremflickr.com/300/200/fashion?9671",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -1143,6 +1202,7 @@
     },
     {
       "id": 59,
+      "description": "Redesigned from scratch and completely revised",
       "name": "James Morar",
       "image": "http://loremflickr.com/300/200/fashion?41574",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -1162,6 +1222,7 @@
     },
     {
       "id": 60,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Julio Fritsch",
       "image": "http://loremflickr.com/300/200/fashion?32586",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -1181,6 +1242,7 @@
     },
     {
       "id": 61,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Angie Ernser",
       "image": "http://loremflickr.com/300/200/fashion?58337",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -1200,6 +1262,7 @@
     },
     {
       "id": 62,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Ramon Cummings",
       "image": "http://loremflickr.com/300/200/fashion?10446",
       "coverPhoto": "http://loremflickr.com/640/480/animals",
@@ -1219,6 +1282,7 @@
     },
     {
       "id": 63,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Keith Hayes",
       "image": "http://loremflickr.com/300/200/fashion?44751",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -1238,6 +1302,7 @@
     },
     {
       "id": 64,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Woodrow Hyatt",
       "image": "http://loremflickr.com/300/200/fashion?18125",
       "coverPhoto": "http://loremflickr.com/640/480/fashion",
@@ -1257,6 +1322,7 @@
     },
     {
       "id": 65,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Bryan Zemlak",
       "image": "http://loremflickr.com/300/200/fashion?53839",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -1276,6 +1342,7 @@
     },
     {
       "id": 66,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Leticia Murray",
       "image": "http://loremflickr.com/300/200/fashion?51582",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -1295,6 +1362,7 @@
     },
     {
       "id": 67,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Geneva Ortiz",
       "image": "http://loremflickr.com/300/200/fashion?80436",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -1314,6 +1382,7 @@
     },
     {
       "id": 68,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Beth Goodwin",
       "image": "http://loremflickr.com/300/200/fashion?10239",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -1333,6 +1402,7 @@
     },
     {
       "id": 69,
+      "description": "Redesigned from scratch and completely revised",
       "name": "April Gleason MD",
       "image": "http://loremflickr.com/300/200/fashion?77298",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -1352,6 +1422,7 @@
     },
     {
       "id": 70,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Vanessa Gottlieb",
       "image": "http://loremflickr.com/300/200/fashion?82862",
       "coverPhoto": "http://loremflickr.com/640/480/fashion",
@@ -1371,6 +1442,7 @@
     },
     {
       "id": 71,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Tracy Roob",
       "image": "http://loremflickr.com/300/200/fashion?1602",
       "coverPhoto": "http://loremflickr.com/640/480/animals",
@@ -1390,6 +1462,7 @@
     },
     {
       "id": 72,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Audrey Pfeffer",
       "image": "http://loremflickr.com/300/200/fashion?46348",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -1409,6 +1482,7 @@
     },
     {
       "id": 73,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Valerie Skiles",
       "image": "http://loremflickr.com/300/200/fashion?27814",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -1428,6 +1502,7 @@
     },
     {
       "id": 74,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Caroline Schamberger",
       "image": "http://loremflickr.com/300/200/fashion?13197",
       "coverPhoto": "http://loremflickr.com/640/480/animals",
@@ -1447,6 +1522,7 @@
     },
     {
       "id": 75,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Yolanda Barrows",
       "image": "http://loremflickr.com/300/200/fashion?63367",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -1466,6 +1542,7 @@
     },
     {
       "id": 76,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Darrin Harber",
       "image": "http://loremflickr.com/300/200/fashion?35115",
       "coverPhoto": "http://loremflickr.com/640/480/technics",
@@ -1485,6 +1562,7 @@
     },
     {
       "id": 77,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Jan Herman",
       "image": "http://loremflickr.com/300/200/fashion?28938",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -1504,6 +1582,7 @@
     },
     {
       "id": 78,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Noel Schamberger",
       "image": "http://loremflickr.com/300/200/fashion?95562",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -1523,6 +1602,7 @@
     },
     {
       "id": 79,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Dr. Robert O'Conner",
       "image": "http://loremflickr.com/300/200/fashion?6949",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -1542,6 +1622,7 @@
     },
     {
       "id": 80,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Lorena Keeling",
       "image": "http://loremflickr.com/300/200/fashion?91878",
       "coverPhoto": "http://loremflickr.com/640/480/cats",
@@ -1561,6 +1642,7 @@
     },
     {
       "id": 81,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Thelma Koss",
       "image": "http://loremflickr.com/300/200/fashion?75991",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -1580,6 +1662,7 @@
     },
     {
       "id": 82,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Celia Goyette",
       "image": "http://loremflickr.com/300/200/fashion?18434",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -1599,6 +1682,7 @@
     },
     {
       "id": 83,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Clint Ledner",
       "image": "http://loremflickr.com/300/200/fashion?52506",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -1618,6 +1702,7 @@
     },
     {
       "id": 84,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Theresa Walter",
       "image": "http://loremflickr.com/300/200/fashion?63990",
       "coverPhoto": "http://loremflickr.com/640/480/fashion",
@@ -1637,6 +1722,7 @@
     },
     {
       "id": 85,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Fannie Turner",
       "image": "http://loremflickr.com/300/200/fashion?16790",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -1656,6 +1742,7 @@
     },
     {
       "id": 86,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Miss Estelle Raynor",
       "image": "http://loremflickr.com/300/200/fashion?6060",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -1675,6 +1762,7 @@
     },
     {
       "id": 87,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Taylor Bauch",
       "image": "http://loremflickr.com/300/200/fashion?35376",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -1694,6 +1782,7 @@
     },
     {
       "id": 88,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Jenna Heidenreich",
       "image": "http://loremflickr.com/300/200/fashion?43665",
       "coverPhoto": "http://loremflickr.com/640/480/animals",
@@ -1713,6 +1802,7 @@
     },
     {
       "id": 89,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Ms. Tracy Predovic",
       "image": "http://loremflickr.com/300/200/fashion?67379",
       "coverPhoto": "http://loremflickr.com/640/480/nature",
@@ -1732,6 +1822,7 @@
     },
     {
       "id": 90,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Dave Boyer",
       "image": "http://loremflickr.com/300/200/fashion?22068",
       "coverPhoto": "http://loremflickr.com/640/480/people",
@@ -1751,6 +1842,7 @@
     },
     {
       "id": 91,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Edmond Aufderhar",
       "image": "http://loremflickr.com/300/200/fashion?63220",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -1770,6 +1862,7 @@
     },
     {
       "id": 92,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Hope Will",
       "image": "http://loremflickr.com/300/200/fashion?68777",
       "coverPhoto": "http://loremflickr.com/640/480/city",
@@ -1789,6 +1882,7 @@
     },
     {
       "id": 93,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Anne Hilll Jr.",
       "image": "http://loremflickr.com/300/200/fashion?74121",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -1808,6 +1902,7 @@
     },
     {
       "id": 94,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Anna Jones",
       "image": "http://loremflickr.com/300/200/fashion?37188",
       "coverPhoto": "http://loremflickr.com/640/480/sports",
@@ -1827,6 +1922,7 @@
     },
     {
       "id": 95,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Delbert Wiegand",
       "image": "http://loremflickr.com/300/200/fashion?46069",
       "coverPhoto": "http://loremflickr.com/640/480/nightlife",
@@ -1846,6 +1942,7 @@
     },
     {
       "id": 96,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Loretta Kirlin",
       "image": "http://loremflickr.com/300/200/fashion?64574",
       "coverPhoto": "http://loremflickr.com/640/480/food",
@@ -1865,6 +1962,7 @@
     },
     {
       "id": 97,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Ernest Stokes",
       "image": "http://loremflickr.com/300/200/fashion?30298",
       "coverPhoto": "http://loremflickr.com/640/480/business",
@@ -1884,6 +1982,7 @@
     },
     {
       "id": 98,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Darren Glover",
       "image": "http://loremflickr.com/300/200/fashion?81053",
       "coverPhoto": "http://loremflickr.com/640/480/transport",
@@ -1903,6 +2002,7 @@
     },
     {
       "id": 99,
+      "description": "Redesigned from scratch and completely revised",
       "name": "Phillip White",
       "image": "http://loremflickr.com/300/200/fashion?58083",
       "coverPhoto": "http://loremflickr.com/640/480/city",
