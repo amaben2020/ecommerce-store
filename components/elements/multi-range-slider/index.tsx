@@ -1,37 +1,60 @@
 import * as styles from "./multi-range.module.scss";
 
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 
-const MultiRangeSlider = () => {
-  const [state, setState] = useState<number>(60);
+import MultiRangeSliderProps from "./types";
+import classNames from "classnames";
 
-  const onSliderChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
-    const { value } = e.target;
-    setState(Number(value));
+const MultiRangeSlider = ({ min, max, onChange }: MultiRangeSliderProps) => {
+  const [range, setRange] = React.useState(0);
+  const [step, setStep] = React.useState(0);
+  const ref = React.useRef(null);
+
+  // Convert to percentage
+  const getPercent = useCallback(
+    (value: number) => Math.round(((value - min) / (max - min)) * 100),
+    [min, max]
+  );
+
+  const getRange = (e: React.ChangeEvent<HTMLInputElement>): void => {
+    const { value } = e?.target;
+    setRange(Number(value));
   };
+
+  React.useEffect(() => {
+    const rangeLinePadding = 16;
+    const calcStep =
+      (ref.current.offsetWidth - rangeLinePadding) / ref.current.max;
+    setStep(calcStep);
+  }, []);
 
   return (
     <>
-      <input
-        min="0"
-        type="range"
-        max="100"
-        className={`${styles.thumb} ${styles.thumb__zindex3}`}
-        // className={styles.wrapper}
-        value={state}
-        onChange={onSliderChange}
-      />
-      <input
-        type="range"
-        min="0"
-        max="100"
-        className={`${styles.thumb} ${styles.thumb__zindex4}`}
-        value={state}
-        onChange={onSliderChange}
-      />
       <div className={styles.slider}>
-        <div className={styles.slider__track} />
-        <div className={styles.slider__range} />
+        <input
+          type="range"
+          id="range"
+          min="0"
+          max="100"
+          value={range}
+          onChange={getRange}
+          ref={ref}
+          // className={styles.input}
+          className={styles.custom}
+          style={{
+            color: "red",
+          }}
+        />
+        <label
+          // className={styles.label}
+          className={styles.custom}
+          htmlFor="range"
+          style={{
+            transform: `translateX(${range * step}px)`,
+          }}
+        >
+          <span> {range} </span>
+        </label>
       </div>
     </>
   );

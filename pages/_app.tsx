@@ -1,11 +1,14 @@
-import React from "react";
 import "@/styles/main.scss";
-import CartState from "@/context/products/cart-state";
+import "./../i18next";
 
-export default function App({ Component, pageProps }: any) {
+import CartState from "@/context/products/cart-state";
+import React from "react";
+
+function App({ Component, pageProps }: any) {
   return (
     <CartState>
       <Component {...pageProps} />
     </CartState>
   );
 }
+export default App;

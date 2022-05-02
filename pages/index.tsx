@@ -18,7 +18,7 @@ const Home = ({ products }: Product) => {
 
 export default Home;
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const { data } = await axios.get("http://localhost:4000/products");
 
   return {
