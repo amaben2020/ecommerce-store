@@ -18,7 +18,7 @@ const CartState = ({ children }: Children) => {
   const addToCart = useCallback((product: ProductProps) => {
     if (!product) {
       toast.error("Product not found");
-      throw new Error("Product is not found");
+      throw new Error("Product  not found");
     }
     dispatch({
       type: "ADD_TO_CART",
