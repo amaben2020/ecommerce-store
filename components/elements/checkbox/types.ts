@@ -1,7 +1,8 @@
 type Checkbox = {
   type: 'checkbox' | 'text',
-  onChange: () => void,
-  children: Children
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void,
+  children: React.ReactNode
+  products: ProductProps
 }
 
 export default Checkbox

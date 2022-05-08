@@ -20,5 +20,5 @@ type ProductProps = {
 };
 
 type Children = {
-  children: React.ReactNode;
+  children: React.ReactNode
 };
