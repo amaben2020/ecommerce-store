@@ -1,21 +1,27 @@
 import axios from "axios"
+import Image from "next/image"
 import React from 'react'
 
 type IProduct = {
-  product : ProductProps[]
+  product: ProductProps[],
+  searchedItem: string
 }
 
-const SearchPage = ({ product } : IProduct) => {
+const SearchPage = ({ product, searchedItem } : IProduct) => {
   console.log(product)
+  console.log(searchedItem)
   return (
     <div>
       <h1>Search Page</h1>
-      <p>{product.map((product: ProductProps) => (
+      {product && <p>{product.map((product: ProductProps) => (
         <div>
           <h1>{product.name}</h1>
           <p>{product.description}</p>
+          <Image src={product?.image} height={220} width={200}/>
         </div>
-      ))}</p>
+      ))}</p>}
+      {product.length === 0 ? <p>No products matches the <span style={{color: 'green'}}>{searchedItem}</span> </p> : ''}
+          
     </div>
   )
 }
@@ -31,6 +37,7 @@ export const getServerSideProps = async (context: any) => {
   return {
     props: {
       product: data,
+      searchedItem: name
     }
   }
 }
