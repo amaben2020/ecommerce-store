@@ -19,8 +19,22 @@
   }
 }
 
+//TODO: Ensure that when card is hovered, image pops
 
- 
+// .image, .wrapper {
+
+//   .image {
+//      transition: all 0.3s ease-in-out;
+//      animation: zoominoutsinglefeatured 1s infinite;
+//   }
+
+//   &:hover {
+//      box-shadow: $box-shadow-purple-2;
+//     cursor: pointer;
+     
+//   }
+// }
+
 .image {
   padding-bottom: 30px;
   transition: all 0.3s ease-in-out;
