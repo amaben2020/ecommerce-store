@@ -1,7 +1,8 @@
+
 type ProductProps = {
   id?: number;
   name?: string;
-  image?: string;
+  image: string;
   coverPhoto?: string;
   featured?: false;
   address?: string;

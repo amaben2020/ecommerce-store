@@ -8,13 +8,12 @@ type IProduct = {
 }
 
 const SearchPage = ({ product, searchedItem } : IProduct) => {
-  console.log(product)
-  console.log(searchedItem)
+  
   return (
     <div>
-      <h1>Search Page</h1>
+      <h1>Search Page</h1> <button>Back To Home</button>
       {product && <p>{product.map((product: ProductProps) => (
-        <div>
+        <div key={product.id}>
           <h1>{product.name}</h1>
           <p>{product.description}</p>
           <Image src={product?.image} height={220} width={200}/>
