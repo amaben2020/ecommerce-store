@@ -1,16 +1,17 @@
-import capitalizeFirstWord from "@/utils/capitalizeFirstWord"
 import Link from "next/link"
 import React, { useEffect, useState } from 'react'
 
-const Search = () => {
+import SearchProps from "./type"
+
+const Search = ({searchHandler} : SearchProps) => {
 
   const [searchedItem, setSearchItem] = useState('')
   const [isTyping, setIsTyping] = useState(false)
 
   const handleSearch = (e: any) => {
     const { target: { value } } = e
-    const keyWord = capitalizeFirstWord(value)
-    console.log(keyWord)
+    const keyWord =  searchHandler(value)
+ 
     setSearchItem(keyWord)  
   }
 

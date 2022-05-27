@@ -1,8 +1,8 @@
-import React, { Children, useCallback, useReducer } from "react";
-
+import React, { useCallback, useReducer } from "react";
+import { toast } from "react-toastify";
 import { CartContext } from "./cart-context";
 import cartReducer from "./reducer";
-import { toast } from "react-toastify";
+
 
 const CartState = ({ children }: Children) => {
   const { Provider } = CartContext;
