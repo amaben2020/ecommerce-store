@@ -1,10 +1,11 @@
-import api, { EndPoints } from "@/api/axios";
+
 import MainMenu from "@/components/sections/main-menu/main-menu";
 import Product from "@/components/sections/main-menu/types";
 import Search from "@/components/sections/search/search";
 import Layout from "@/layout/layout";
+import { getProducts } from "@/services/getProducts";
 import capitalizeFirstWord from "@/utils/capitalizeFirstWord";
-import axios from "axios";
+
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -22,7 +23,7 @@ const Home = ({ products }: Product) => {
 export default Home;
 
 export const getStaticProps = async () => {
-  const { data } = await api.get(EndPoints.users);
+  const { data } = await getProducts();
 
   return {
     props: {
