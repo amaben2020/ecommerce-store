@@ -1,3 +1,4 @@
+import api, { EndPoints } from "@/api/axios";
 import MainMenu from "@/components/sections/main-menu/main-menu";
 import Product from "@/components/sections/main-menu/types";
 import Search from "@/components/sections/search/search";
@@ -12,7 +13,7 @@ const Home = ({ products }: Product) => {
   return (
     <Layout title="Home | Welcome to Algomachine007 store">
       <ToastContainer autoClose={2000} position="top-center" />
-      <Search searchHandler={capitalizeFirstWord}/>
+      <Search searchHandler={capitalizeFirstWord} />
       <MainMenu products={products} />
     </Layout>
   );
@@ -21,7 +22,7 @@ const Home = ({ products }: Product) => {
 export default Home;
 
 export const getStaticProps = async () => {
-  const { data } = await axios.get("http://localhost:4000/products");
+  const { data } = await api.get(EndPoints.users);
 
   return {
     props: {

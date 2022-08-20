@@ -3,9 +3,9 @@ import MultiRangeSlider from "@/components/elements/multi-range-slider";
 import useLanguageHook from "@/hooks/useLanguageHook";
 import useStateFromContext from "@/hooks/useStateFromContext";
 import { useState } from "react";
+
 import * as styles from "./main-menu.module.scss";
 import Product from "./types";
-
 
 const MainMenu = (products: Product) => {
   const { languages, currentLanguageCode, t, i18n } = useLanguageHook();
@@ -29,7 +29,7 @@ const MainMenu = (products: Product) => {
 
       <p> {t("days_since_release", { ok: "Amaben" })}</p>
       {data.slice(0, 13).map((product) => (
-        <div style={{border: '1px solid red'}}>
+        <div >
           {/* <div key={product.id}>{t("product_name", { product })} </div>
           <button onClick={() => addToCart(product)}>Add</button>
           <button onClick={() => deleteFromCart(Number(product.id))}>
